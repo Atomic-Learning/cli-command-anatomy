@@ -1,22 +1,19 @@
 {
-    "title": "",
-    "slug": "",
-    "description": "",
+    "title": "CLI Command Anatomy",
+    "slug": "cli-command-anatomy",
+    "description": "A description of the anatomy of a Command Line Interface (CLI) command.",
     "authors": [
-        "",
-        ""
+        "chris-cooling"
     ],
     "tags": [
-        "",
-        ""
+        "programming",
+        "software-engineering"
     ],
-    "duration": 0,
+    "duration": 6,
     "prerequisites": [
-        "",
-        ""
+        "programming-paths",
+        "programming-current-working-directory"
     ],
     "related": [
-        "",
-        ""
     ]
 }

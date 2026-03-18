@@ -1,1 +1,60 @@
+<p>A terminal usually displays a prompt to show it is ready for input. The prompt often includes the current working directory and a symbol such as <code>$</code> or <code>></code>. The exact prompt format varies by shell and operating system. A typical prompt might look like this:</p>
+    
+<pre><code>/home/user/ $ </code></pre>
 
+<p>A cursor shows where the next character will appear. Users type commands and run them by pressing <key>Enter</key>.</p>
+
+<h2>Command Structure</h2>
+
+<p>A CLI command typically has three parts:</p>
+
+<ul>
+    <li><strong>Command name:</strong> The action to perform.</li>
+    <li><strong>Options (including flags):</strong> Modifiers that change command behavior. These often start with a single or double dash (for example, <code>-l</code> or <code>--long</code>).</li>
+    <li><strong>Arguments:</strong> Values the command uses, such as file or directory names.</li>
+</ul>
+
+<p>A common pattern is:</p>
+
+<pre><code>command [options] [arguments]</code></pre>
+
+<p>Exactly which options and arguments are valid depends on the specific command, but this general structure is common across CLI tools.</p>
+
+<h2>Example</h2>
+
+<p>For example, in Unix-like systems, <code>ls</code> lists the contents of the current directory. In its simplest form, type <code>ls</code> and press <key>Enter</key>. It may produce output like this:</p>
+
+<pre><code>file1.txt
+file2.txt
+directory1/</code></pre>
+
+<p>Options modify command behavior. For example, <code>-l</code> makes <code>ls</code> show more detail for each file or directory:</p>
+
+<pre><code>ls -l</code></pre>
+
+<p>This might produce output like:</p>
+
+<pre><code>-rw-r--r-- 1 user user 1234 Jan 1 12:00 file1.txt
+drwxr-xr-x 2 user user 4096 Jan 1 12:00 directory1/</code></pre>
+
+<p>You do not need to understand every column yet; the key point is that the option changed the output format.</p>
+
+<p>Arguments tell the command what to operate on. For <code>ls</code>, we can pass a directory name:</p>
+
+<pre><code>ls directory1/</code></pre>
+
+<p>This lists the contents of <code>directory1/</code> instead of the current directory.</p>
+
+<p>Commands can combine options and arguments. For example, we can use <code>-l</code> and also specify a directory:</p>
+
+<pre><code>ls -l directory1/</code></pre>
+
+<p>This would display detailed information about the contents of <code>directory1/</code>.</p>
+
+<h2>Options with Values</h2>
+
+<p>Some options require a value. For example, <code>--output</code> may need a file name to say where output should be saved:</p>
+
+<pre><code>command --output output.txt</code></pre>
+
+<p>Here, <code>--output</code> is the option and <code>output.txt</code> is the value provided for that option.</p>
