@@ -5,11 +5,11 @@ A terminal usually displays a prompt to show it is ready for input. The prompt o
 /home/user/ $ 
 ```
 
-A cursor shows where the next character will appear. Users type commands and run them by pressing <kbd>Enter</kbd>.
+A cursor shows where the next character will appear. Users type commands and run them by pressing `Enter`{.kbd}.
 
 ![An example of command execution in a terminal.](resources/command_execution.gif)
 
-The above animation shows the process of typing the command `ls`{.bash} and pressing <kbd>Enter</kbd> to execute it. The output of the command is displayed below the command, and a new prompt appears ready for another command.
+The above animation shows the process of typing the command `ls`{.bash} and pressing `Enter`{.kbd} to execute it. The output of the command is displayed below the command, and a new prompt appears ready for another command.
 
 # Command Structure
 
@@ -29,7 +29,7 @@ Exactly which options and arguments are valid depends on the specific command, b
 
 # Example
 
-For example, in Bash and zsh, `ls`{.bash} lists the contents of the current directory. In its simplest form, type `ls`{.bash} and press <kbd>Enter</kbd>. It may produce output like this:
+For example, in Bash and zsh, `ls`{.bash} lists the contents of the current directory. In its simplest form, type `ls`{.bash} and press `Enter`{.kbd}. It may produce output like this:
 
 ```bash
 file1.txt file2.txt directory1/
